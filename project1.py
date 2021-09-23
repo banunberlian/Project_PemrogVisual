@@ -7,4 +7,3 @@ master.geometry("300x300")
 tk.Label(master, text="Nama : ").grid(row=0, column=0)
 
 tk.mainloop()
-python3 project1.py
