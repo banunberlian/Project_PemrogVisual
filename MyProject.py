@@ -3,6 +3,7 @@ import tkinter as tk
 window = tk.Tk()
 window.title('Data Mahasiswa')
 window.geometry('600x400')
+window.iconbitmap('C:\KULIAH\sem 3\prak pemrog visual\sekolah.ico')
 
 def createNama():
     nama = inputNama.get()
