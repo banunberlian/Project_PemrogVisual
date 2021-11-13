@@ -3,9 +3,8 @@ import tkinter as tk
 window = tk.Tk()
 window.title('Data Mahasiswa')
 window.geometry('600x400')
-window.iconbitmap('C:\KULIAH\sem 3\prak pemrog visual\sekolah.ico')
 
-def createNama():
+def create():
     nama = inputNama.get()
     tk.Label(window, text="Nama : " + nama).grid(row=5, column=1)
     nim = inputNim.get()
@@ -30,5 +29,5 @@ inputNim.grid(row=1, column=1)
 inputAlamat.grid(row=2, column=1)
 inputJenisKelamin.grid(row=3, column=1)
 
-tk.Button(window, text="Click", command=createNama).grid(row=4, column=1)
+tk.Button(window, text="submit", command=create).grid(row=4, column=1)
 window.mainloop()
