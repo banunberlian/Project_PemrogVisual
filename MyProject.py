@@ -2,7 +2,7 @@ import tkinter as tk
 
 window = tk.Tk()
 window.title('Data Mahasiswa')
-window.geometry('600x400')
+window.geometry('500x400')
 
 def create():
     nama = inputNama.get()
