@@ -34,5 +34,5 @@ inputAlamat.grid(row=2, column=1)
 inputJenisKelamin.grid(row=3, column=1)
 inputTanggalLahir.grid(row=4, column=1)
 
-tk.Button(window, text="submit", command=create).grid(row=4, column=1)
+tk.Button(window, text="submit", command=create).grid(row=5, column=1)
 window.mainloop()
