@@ -14,7 +14,7 @@ def create():
     jeniskelamin = inputJenisKelamin.get()
     tk.Label(window, text="Jenis Kelamin: " + jeniskelamin).grid(row=9, column=1)
     tanggallahir = inputTanggalLahir.get()
-    
+    tk.Label(window, text="Tanggal Lahir: " + tanggallahir).grid(row=9, column=1)
 
 inputNama = tk.Entry(window)
 inputNim = tk.Entry(window)
